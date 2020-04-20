@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+section {
+    min-height: 60vh;
+}
+.header {
+    height: 100vh;
+    padding-top: 44px;
+    background: url(/img/w.png) center center no-repeat;
+}
+.menu {
+    margin-top: 44px;
+}
+.menu {
+   display: flex;
+   justify-content: center;
+}
+.menu a {
+    margin-right: 100px;
+    color: black;
+font-family: sans-serif;
+text-indent: 40px;
+font-size: 34px;
+font-weight: 400;
+line-height: 30px;
+}
+.menu a: :last-child {
+    margin-right: 0;
+}
+.header-text {
+   text-align: center;
+   margin-top: 160px;
+}
+.header-text h1 {
+    color: white;
+font-size: 90px;
+font-weight: 800;
+}
+
+.header p {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4.2px;
+}
+.header button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: white;
+    margin-top: 22px;
+    padding: 20px 80px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+
+}
+.header button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+}
+.about-text span {
+    margin-top: 40px;
+    color: #c4c4c4;
+    font-size: 30px;
+    font-weight: 100px;
+    letter-spacing: 4.2px;
+   
+    
+}
+.about-text h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+
+}
+.about-text p {
+    font-size: 17px;
+}
+.about-text button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    margin-top: 22px;
+    padding: 20px 80px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    transition: ease-in .25s all;
+
+}
+.about-text button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.photos {
+    text-align: center;
+    margin: 80px;
+    margin-bottom: 80px;
+  
+}
+.photos h2 {
+    color: black;
+    font-style: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2;
+
+}
+.photos p {
+    margin-top: 36px;
+    color: black;
+    font-style: 36px;
+    font-weight: 500;
+    letter-spacing: 4.2;
+    font-size: 20px;
+   
+}
+.photos-wrap {
+    margin-top: 50px;
+}
+.photos-wrap img {
+    margin: 10px;
+}
+.company-text {
+    text-align: center;
+}
+.company{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.company-text h2 {
+    color: black;
+    font-style: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2;
+}
+.company-text p {
+    margin-top: 36px;
+    margin-bottom: 65px;
+    color: black;
+    font-style: 36px;
+    font-weight: 500;
+    letter-spacing: 4.2;
+    font-size: 20px;
+   }
+.company-wrap {
+    display: flex;
+    justify-content: center;
+}
+.photos-wrap {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.company-block-1 {
+    margin-right: 34px;
+}
+.company-block h3 {
+    margin-top: 30px;
+    color: black;
+    font-style: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2;
+}
+    
+.company-block p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-style: 36px;
+    font-weight: 500;
+    letter-spacing: 4.2;
+    font-size: 20px;
+
+}
+.company-block button {
+   cursor: pointer;
+    border: none;
+    color: #000000;
+    line-height: 41px;
+    font-weight: 400;
+    letter-spacing: 3.2;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: ease .25s;
+}
+.company-block :hover {
+    background-color: #ccc;
+}
+
+.send {
+    padding: 15px 0;
+    background-color: #f4f4f4;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.send-text {
+    margin-right: 100px;
+}
+.send-text h2 {
+    color: #000000;
+    line-height: 41px;
+    font-weight: 500;
+    letter-spacing: 4.2;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.send-text p {
+    color: #5b5b5b;
+    font-weight: 400;
+    letter-spacing: 2.52;
+    font-size: 18px;
+}
+input {
+    margin-right: 30px;
+    background: transparent;
+    border: 2px solid #7a7a7a;
+    padding: 20px 30px;
+    color: #3a4047;
+    font-weight: 400;
+    letter-spacing: 2.52;
+    font-size: 22px;
+}
+form button {
+    cursor: pointer;
+    padding: 15px 40px;
+    border: none;
+    background-color: #3a4047;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 2.52;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3.08;
+    transition: ease-in-out .30c;
+}
+form button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.footer {
+    text-align: center;
+    padding: 95px 0;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 6.12;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.footer-menu {
+    margin-bottom: 66px;
+   
+}
+.footer-menu a {
+    margin-right: 55px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+.footer-menu a: :last-child {
+    margin-right: 0px;
+}
+ .footer-text {
+     margin-bottom: 19px;
+ }
